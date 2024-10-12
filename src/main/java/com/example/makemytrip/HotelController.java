@@ -10,7 +10,9 @@ public class HotelController {
 
     @GetMapping("/hotel")
     public String getData() {
+
         return "Please book hotel from MMT, 75% discount in North/South India test2";
+
     }
     @PutMapping("/hotel/{hotelId}")
     public String updateHotel(@PathVariable String hotelId, @RequestParam String status) {
